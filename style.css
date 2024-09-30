@@ -704,7 +704,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 400px;
+    width: 90vw;
   }
   .column-detail p {
     font-size: x-large;
@@ -722,7 +722,7 @@ footer {
   .contact {
     display: none;
   }
-  .copyright {
+  .copyright p {
     font-size: large;
   }
 }
