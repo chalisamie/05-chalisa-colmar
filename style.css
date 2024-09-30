@@ -130,7 +130,7 @@ nav img {
 .news-right {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
 }
 .mobile-1 {
   display: none;
@@ -155,7 +155,7 @@ nav img {
 }
 .news-3 img {
   height: auto;
-  width: 37%;
+  width: 35%;
   margin-left: 16px;
   margin-top: 16px;
 }
