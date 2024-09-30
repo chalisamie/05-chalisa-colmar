@@ -324,7 +324,6 @@ nav img {
   height: auto;
   margin-right: 32px;
   background-color: white;
-  margin-bottom: 24px;
 }
 .box-3 img {
   height: auto;
@@ -422,11 +421,13 @@ nav img {
 }
 .thesis {
   display: flex;
+  padding-bottom: 32px;
 }
 .thesis-left video {
   padding-left: 24px;
   padding-bottom: 24px;
   padding-right: 24px;
+  width: 85%;
 }
 .thesis-text {
   padding-left: 24px;
@@ -437,7 +438,7 @@ nav img {
 }
 .thesis-text p {
   padding-top: 8px;
-  font-size: large;
+  font-size: x-large;
   padding-bottom: 32px;
   color: #8d8989;
 }
@@ -456,7 +457,7 @@ nav img {
   margin-right: 250px;
   margin-bottom: 20px;
   margin-top: 80px;
-  width: 200%;
+  width: 100%;
 }
 
 .thesis-1 img {
@@ -484,7 +485,8 @@ nav img {
   margin-left: 14px;
   margin-right: 400px;
   margin-bottom: 20px;
-  width: 200%;
+  margin-top: 80px;
+  width: 100%;
 }
 
 .thesis-2 img {
@@ -505,7 +507,27 @@ nav img {
   color: #676565;
   margin-top: 20px;
 }
-
+.thesis-1:hover {
+  background-color: #9e9b9b;
+}
+.thesis-2:hover {
+  background-color: #9e9b9b;
+  margin-left: 35%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  padding-left: 24px;
+  padding-bottom: 100px;
+  font-size: x-large;
+  color: #8d8989;
+}
+.contact a {
+  text-decoration: none;
+  color: #8d8989;
+  margin-right: 24px;
+}
 @media (max-width: 768px) {
   header {
     display: flex;
@@ -676,6 +698,7 @@ nav img {
     display: flex;
     margin: 0;
     padding: 0;
+    margin-bottom: 32px;
   }
   .column-detail {
     display: flex;
@@ -686,5 +709,20 @@ nav img {
   .column-detail p {
     font-size: x-large;
     font-weight: 500;
+  }
+  .thesis-text {
+    display: none;
+  }
+  .thesis-right {
+    display: none;
+  }
+  .thesis-left video {
+    width: 100vw;
+  }
+  .contact {
+    display: none;
+  }
+  .copyright {
+    font-size: large;
   }
 }
