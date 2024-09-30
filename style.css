@@ -205,6 +205,7 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .row-1 {
   display: flex;
@@ -275,7 +276,7 @@ nav img {
   margin-right: 32px;
   background-color: white;
   display: flex;
-  flex-wrap: wrap;
+
   flex-direction: column;
 }
 .box-1 img {
@@ -565,5 +566,32 @@ nav img {
   }
   .news-3 img {
     width: 90vw;
+  }
+  .section-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .row-1 {
+    display: none;
+  }
+  .row-2 {
+    display: none;
+  }
+  .column {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .column-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 400px;
+  }
+  .column-detail p {
+    font-size: x-large;
+    font-weight: 500;
   }
 }
