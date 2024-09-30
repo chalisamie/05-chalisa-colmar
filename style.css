@@ -412,6 +412,99 @@ nav img {
   color: #8d8989;
   margin-left: 30px;
 }
+.section-4 h1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xxx-large;
+}
+.thesis {
+  display: flex;
+}
+.thesis-left video {
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+}
+.thesis-text {
+  padding-left: 24px;
+}
+
+.thesis-text h3 {
+  font-size: xx-large;
+}
+.thesis-text p {
+  padding-top: 8px;
+  font-size: large;
+  padding-bottom: 32px;
+  color: #8d8989;
+}
+
+.thesis-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesis-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+  margin-right: 250px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  width: 200%;
+}
+
+.thesis-1 img {
+  max-width: 35%;
+  height: auto;
+  margin-right: 10px;
+  padding: 16px;
+}
+
+.thesis-1 h3 {
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.thesis-1 p {
+  font-size: large;
+  font-weight: 300;
+  color: #676565;
+  margin-top: 20px;
+}
+.thesis-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+  margin-right: 400px;
+  margin-bottom: 20px;
+  width: 200%;
+}
+
+.thesis-2 img {
+  max-width: 35%;
+  height: auto;
+  margin-right: 10px;
+  padding: 16px;
+}
+
+.thesis-2 h3 {
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.thesis-2 p {
+  font-size: large;
+  font-weight: 300;
+  color: #676565;
+  margin-top: 20px;
+}
 
 @media (max-width: 768px) {
   header {
